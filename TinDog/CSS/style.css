@@ -1,0 +1,154 @@
+body {
+  font-family: "Montserrat";
+}
+.fs-end {
+  justify-content: flex-end;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+/* Nav Bar */
+.navbar {
+  background-color: rgba(33, 37, 41, 0) !important;
+  padding-bottom: 4.5rem !important;
+}
+.navbar ul {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  padding-bottom: 5rem;
+}
+#title h1 {
+  font-family: "Montserrat Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Title Image */
+
+#title .container .row .image-title {
+  width: 60%;
+  position: absolute;
+  transform: translate(69%, 19%) rotate(25deg);
+}
+@media (min-width: 768px) {
+  #title .container .row .image-title {
+    display: none;
+  }
+  #title .container .row .title-direction {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  #title .container .row .image-title {
+    display: block;
+  }
+}
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+.features {
+  padding: 4.5rem 0;
+}
+
+.features h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+.features .icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#testimonials h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+}
+#testimonials button {
+  margin: 0 -45px;
+}
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* 
+DOWNLOAD 
+*/
+
+#download {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 10% 15%;
+}
+#download h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 2% 15%;
+}
+#footer i {
+  padding: 0 10px;
+  cursor: pointer;
+}
+#footer p {
+  color: #030101;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "Montserrat";
+}
